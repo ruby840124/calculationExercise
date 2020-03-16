@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculate exercise</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1><b>calculate exercise</b></h1>
+    <h4><b>if you ensure your anwser, please press the enter .</b></h4>
+	<p id="calculate"></p><br> 
+    <script>
+    var a,b,c,symbol,correct;
+    var key = 0;
+    addCalculationFormula();
+    function addCalculationFormula(){
+	a = Math.floor(Math.random()*100); 
+	b = Math.floor(Math.random()*100); 
+	c = Math.floor(Math.random()*4);
+	symbol = null;
+	correct=null;
+
+	switch (c){
+	   case 0:
+	       symbol="+";
+	       correct= a+b; 
+	       break;
+	   case 1:
+	       symbol="-";
+	       correct= a-b; 
+	       break;
+	   case 2:
+	       symbol="*";
+	       correct= a*b; 
+	       break;
+	   case 3:
+	       symbol="/";
+	       correct= a/b; 
+	       break;
+	   default:
+	       symbol="+";
+	       correct= a+b; 
+	       break;
+	}
+    const calculateId = "calculate"+ key;
+    key= key+1;
+    var div = document.createElement("div");
+　　div.setAttribute("id", calculateId);
+　　div.innerHTML = "<label>" + a + symbol + b + "=" + "<\/label>" + "<input id='MyIput'>";
+    document.getElementById("calculate").appendChild(div);
+    }
+
+    $(document).keydown(function(event){
+　　    if(event.keyCode == 13){
+            result();
+            addCalculationFormula();
+        }
+    });
+
+	function result() {
+    const calculateId = "calculate"+ (key-1);
+	var answer= document.getElementById('MyIput').value;
+	document.getElementById("MyIput").remove();
+	document.getElementById(calculateId).innerHTML=document.getElementById(calculateId).innerHTML+answer ;
+
+	 if (answer == correct)
+	   document.getElementById(calculateId).style.color = "green";
+	 else
+	   document.getElementById(calculateId).style.color = "red";
+	   
+	}
+	</script>
+</body>
+</body>
+</html>

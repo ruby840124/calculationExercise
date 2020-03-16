@@ -1,9 +1,11 @@
 # calculation_project
-demo:https://ruby840124.github.io/calculation_project/
+Description:<br>
+▶▶Create random Math exercises (additions, subtractions, multiplications,
+divisions)<br>
+▶▶Shown as a text with an input field right next to it<br>
+▶▶When pressing the enter key the current field value is checked<br>
+▶▶If correct the entire calculation is written in green, otherwise in red<br>
+▶▶ A new random calculation is shown<br>
 
-• Create random Math exercises (additions, subtractions, multiplications,
-divisions)
-• Shown as a text with an input field right next to it
-• When pressing the enter key the current field value is checked
-• If correct the entire calculation is written in green, otherwise in red
-• A new random calculation is shown
+# demo
+demo:https://ruby840124.github.io/calculation_project/

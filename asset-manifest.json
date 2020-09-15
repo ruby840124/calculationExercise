@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/faceAPIProject/static/css/main.b68dedff.chunk.css",
-    "main.js": "/faceAPIProject/static/js/main.5dc35499.chunk.js",
-    "main.js.map": "/faceAPIProject/static/js/main.5dc35499.chunk.js.map",
-    "runtime-main.js": "/faceAPIProject/static/js/runtime-main.7511e5d1.js",
-    "runtime-main.js.map": "/faceAPIProject/static/js/runtime-main.7511e5d1.js.map",
-    "static/js/2.dd8126b0.chunk.js": "/faceAPIProject/static/js/2.dd8126b0.chunk.js",
-    "static/js/2.dd8126b0.chunk.js.map": "/faceAPIProject/static/js/2.dd8126b0.chunk.js.map",
-    "index.html": "/faceAPIProject/index.html",
-    "precache-manifest.f91f265ec5dfca835819d4e4c322f36d.js": "/faceAPIProject/precache-manifest.f91f265ec5dfca835819d4e4c322f36d.js",
-    "service-worker.js": "/faceAPIProject/service-worker.js",
-    "static/css/main.b68dedff.chunk.css.map": "/faceAPIProject/static/css/main.b68dedff.chunk.css.map",
-    "static/js/2.dd8126b0.chunk.js.LICENSE.txt": "/faceAPIProject/static/js/2.dd8126b0.chunk.js.LICENSE.txt",
-    "static/media/loading2.gif": "/faceAPIProject/static/media/loading2.1e6d9f0d.gif",
-    "static/media/test.png": "/faceAPIProject/static/media/test.034849c3.png",
-    "static/media/upload.png": "/faceAPIProject/static/media/upload.2677b93a.png"
+    "main.css": "/CD_player/static/css/main.7b665b0c.chunk.css",
+    "main.js": "/CD_player/static/js/main.0937887c.chunk.js",
+    "main.js.map": "/CD_player/static/js/main.0937887c.chunk.js.map",
+    "runtime-main.js": "/CD_player/static/js/runtime-main.7cf77248.js",
+    "runtime-main.js.map": "/CD_player/static/js/runtime-main.7cf77248.js.map",
+    "static/js/2.c3840275.chunk.js": "/CD_player/static/js/2.c3840275.chunk.js",
+    "static/js/2.c3840275.chunk.js.map": "/CD_player/static/js/2.c3840275.chunk.js.map",
+    "index.html": "/CD_player/index.html",
+    "precache-manifest.bba04d985972cd59c7cf9c842d7cdda2.js": "/CD_player/precache-manifest.bba04d985972cd59c7cf9c842d7cdda2.js",
+    "service-worker.js": "/CD_player/service-worker.js",
+    "static/css/main.7b665b0c.chunk.css.map": "/CD_player/static/css/main.7b665b0c.chunk.css.map",
+    "static/js/2.c3840275.chunk.js.LICENSE.txt": "/CD_player/static/js/2.c3840275.chunk.js.LICENSE.txt",
+    "static/media/CDPlayer.css": "/CD_player/static/media/next.b41b6646.svg",
+    "static/media/music.mp3": "/CD_player/static/media/music.cc723b56.mp3",
+    "static/media/play.svg": "/CD_player/static/media/play.c363353e.svg",
+    "static/media/player.svg": "/CD_player/static/media/player.35d7ffce.svg",
+    "static/media/stop.svg": "/CD_player/static/media/stop.a54fda48.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7511e5d1.js",
-    "static/js/2.dd8126b0.chunk.js",
-    "static/css/main.b68dedff.chunk.css",
-    "static/js/main.5dc35499.chunk.js"
+    "static/js/runtime-main.7cf77248.js",
+    "static/js/2.c3840275.chunk.js",
+    "static/css/main.7b665b0c.chunk.css",
+    "static/js/main.0937887c.chunk.js"
   ]
 }
